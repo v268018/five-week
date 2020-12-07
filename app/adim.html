@@ -1,0 +1,400 @@
+---
+title: adim
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+<section class="Wrap">
+    <!-- 表頭 -->
+    <div class="d-flex">
+        <div class="d-flex  align-items-center list-unstyled w-100">
+            <h2 class="h2 text-bold mb-1 mr-7">Adim</h2>
+            <div class="mr-auto" data-toggle="modal" data-target="#new-exampleModal">
+                <a class="material-icons text-success-dark" href="#">add</a>
+                Add New Admin
+            </div>
+            <div class="mr-4">
+                <a class="material-icons link-Style" href="#">
+                    search
+                </a>
+            </div>
+            <div>
+                <a class="material-icons link-Style" href="#">
+                    notifications_active
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- table -->
+    <table class="table textcolor-primary">
+        <!-- table-header -->
+        <thead>
+          <tr>
+            <th scope="col">
+                id
+                <i class="material-icons align-middle mb-1 text-success-dark">arrow_downward</i>
+            </th>
+            <th scope="col">Name</th>
+            <th scope="col">Last</th>
+            <th scope="col">Verified</th>
+          </tr>
+        </thead>
+        <!-- tbody -->
+        <tbody>
+          <tr class="bg-outline-primary">
+            <td scope="row">#1</td>
+            <td>Emir Wicks</td>
+            <td>emir.wicks@mail.com</td>
+            <td>Yes</td> 
+            <td class="text-right">
+                <a href="#" class="material-icons link-Style mr-4" data-toggle="modal" data-target="#show-adim-exampleModal">visibility</a>
+                <a href="#" class="material-icons link-Style" data-toggle="modal" data-target="#edit-exampleModal" >edit</a>
+            </td>
+          </tr>
+          <tr class="bg-outline-primary">
+            <td scope="row">#2</td>
+            <td>Zaina Goldsmith</td>
+            <td>zaina.goldsmith@mail.com</td>
+            <td>Yes</td>
+            <td class="text-right">
+                <a href="#" class="material-icons link-Style mr-4" data-toggle="modal" data-target="#show-adim-exampleModal">visibility</a>
+                <a href="#" class="material-icons link-Style" data-toggle="modal" data-target="#edit-exampleModal">edit</a>
+            </td>
+          </tr>
+          <tr class="bg-outline-primary">
+            <td scope="row">#3</td>
+            <td>Mahima Lopez</td>
+            <td>Mahima.Lopez@mail.com</td>
+            <td>Yes</td>
+            <td class="text-right">
+                <a href="#" class="material-icons link-Style mr-4" data-toggle="modal" data-target="#show-adim-exampleModal">visibility</a>
+                <a href="#" class="material-icons link-Style" data-toggle="modal" data-target="#edit-exampleModal">edit</a>
+            </td>
+          </tr>
+          <tr class="bg-outline-primary">
+            <td scope="row">#4</td>
+            <td>Pharrell Murray</td>
+            <td>Pharrell.Murray@mail.com</td>
+            <td>Yes</td>
+            <td class="text-right">
+                <a href="#" class="material-icons link-Style mr-4" data-toggle="modal" data-target="#show-adim-exampleModal">visibility</a>
+                <a href="#" class="material-icons link-Style" data-toggle="modal" data-target="#edit-exampleModal">edit</a>
+            </td>
+          </tr>
+          <tr class="bg-outline-primary">
+            <td scope="row">#5</td>
+            <td>Annika Mcbride</td>
+            <td>Annika Mcbride@mail.com</td>
+            <td>Yes</td>
+            <td class="text-right">
+                <a href="#" class="material-icons link-Style mr-4" data-toggle="modal" data-target="#show-adim-exampleModal">visibility</a>
+                <a href="#" class="material-icons link-Style" data-toggle="modal" data-target="#edit-exampleModal">edit</a>
+            </td>
+          </tr>
+          <tr class="bg-outline-primary">
+            <td scope="row">#6</td>
+            <td>Fatimah Clark</td>
+            <td>Fatimah Clark@mail.com</td>
+            <td>Yes</td>
+            <td class="text-right">
+                <a href="#" class="material-icons link-Style mr-4" data-toggle="modal" data-target="#show-adim-exampleModal">visibility</a>
+                <a href="#" class="material-icons link-Style" data-toggle="modal" data-target="#edit-exampleModal">edit</a>
+            </td>
+          </tr>
+          <tr class="bg-outline-primary">
+            <td scope="row">#7</td>
+            <td>Klaudia Rhodes</td>
+            <td>Klaudia Rhodes@mail.com</td>
+            <td>Yes</td>
+            <td class="text-right">
+                <a href="#" class="material-icons link-Style mr-4" data-toggle="modal" data-target="#show-adim-exampleModal">visibility</a>
+                <a href="#" class="material-icons link-Style" data-toggle="modal" data-target="#edit-exampleModal">edit</a>
+            </td>
+          </tr>
+          <tr class="bg-outline-primary">
+            <td scope="row">#8</td>
+            <td>Tillie Lucero</td>
+            <td>Tillie Lucero@mail.com</td>
+            <td>Yes</td>
+            <td class="text-right">
+                <a href="#" class="material-icons link-Style mr-4" data-toggle="modal" data-target="#show-adim-exampleModal">visibility</a>
+                <a href="#" class="material-icons link-Style" data-toggle="modal" data-target="#edit-exampleModal">edit</a>
+            </td>
+          </tr>
+          <tr class="bg-outline-primary">
+            <td scope="row">#9</td>
+            <td>Sabrina Stephenson</td>
+            <td>Sabrina Stephenson@mail.com</td>
+            <td>Yes</td>
+            <td class="text-right">
+                <a href="#" class="material-icons link-Style mr-4" data-toggle="modal" data-target="#show-adim-exampleModal">visibility</a>
+                <a href="#" class="material-icons link-Style" data-toggle="modal" data-target="#edit-exampleModal">edit</a>
+            </td>
+          </tr>
+          <tr class="bg-outline-primary border-Bottom">
+            <td scope="row">#10</td>
+            <td>Annie Smith</td>
+            <td>Annie Smith@mail.com</td>
+            <td>Yes</td>
+            <td class="text-right" >
+                <a href="#" class="material-icons link-Style mr-4 " data-toggle="modal" data-target="#show-adim-exampleModal">visibility</a>
+                <a href="#" class="material-icons link-Style" data-toggle="modal" data-target="#edit-exampleModal">edit</a>
+            </td>
+          </tr>
+        </tbody>
+    </table>
+    <!-- 頁碼 -->
+    <nav aria-label="Page navigation example">
+        <ul class="pagination pagination-sm d-flex justify-content-end">
+          <li class="page-item">
+            <a class="page-link text-bold" href="#" aria-label="Previous">
+              <span aria-hidden="true" >&lt;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a href="#"  class="page-link" aria-label="Next">
+              <span aria-hidden="true">&gt;</span>
+            </a>
+          </li>
+        </ul>
+    </nav>
+</section>
+
+<!-- show-Adim Modal -->
+<div class="modal fade" id="show-adim-exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+      <div class="modal-content rounded-0">
+        <div class="modal-body d-flex justify-content-around">
+                <div>
+                    <img src="assets/images/week5/emir.jpeg" alt="" class="img-fluid">
+                </div>
+                <div class="w-50">
+                    <div class="d-flex justify-content-between" >
+                        <span class="text-bold">#1</span>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <span>Admin</span>
+                    <p class="h2 text-bold mb-0">Emir Wicks</p>
+                    <small class="h5 text-block-50 mb-3" >emir.wicks@mail.com</small>
+                    <div class="d-flex justify-content-between mb-4">
+                        
+                        <span class="">verified</span>
+
+                        <button type="button" class="expandArrow btn p-1" data-toggle="collapse" data-target="#viewFooter" aria-expanded="false" aria-controls="viewFooter">
+                            <span class="material-icons">expand_less</span>
+                        </button>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <button type="button" class="btn btn-outline-danger-50 rounded-sm">Deactivate</button>
+                        <button type="button" class="btn btn-success-dark rounded-sm">Edit</button>
+                    </div>
+                </div>
+                   
+        </div>
+      </div>
+    </div>
+</div>
+<!-- new Modal -->
+<div class="modal fade" id="new-exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content rounded-0">
+        <div class="modal-header border-0">
+        <h5 class="modal-title h2 text-dark" id="exampleModalLabel">New Admin</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body">
+          
+            <form action="#">
+                <p class="h3 text-bold">Account</p>
+                <div class="form-group">
+                    <label for="name"  class="h5">Name</label>
+                    <input type="text" class="form-control rounded-0" id="name" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput" class="h5">Email</label>
+                    <input type="email" class="form-control rounded-0" id="formGroupExampleInput">
+                </div>
+                <hr class="bg-success">
+                <div class="form-group">
+                    <p class="h3 text-bold">Verification</p>
+                    <div class="d-flex align-items-center mb-3">
+                        <span class="material-icons mr-2 text-danger-50">warning</span>
+                        <span class="text-bold">Unverified</span> 
+                    </div>
+                    <button type="button" class="btn btn-outline-success-dark btn-block rounded-0">Send Verification Mail</button>
+                </div>
+                <hr class="bg-success">
+                <!-- custom-select -->
+                <div class="form-group">
+                    <p class="h3 text-bold">Access Level</p>
+                    <select class="custom-select">
+                        <option selected>-Choose access level-</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <hr class="bg-success">
+                <!-- form-check -->
+                <div class="form-group">    
+                    <p class="h3 text-bold mb-2">Custom Access</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                            lecture
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                        <label class="form-check-label" for="defaultCheck2">
+                          Disabled checkbox
+                        </label>
+                    </div> 
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                            Coupon
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                        <label class="form-check-label" for="defaultCheck2">
+                            Message
+                        </label>
+                    </div> 
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                            Setting
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                        <label class="form-check-label" for="defaultCheck2">
+                            task menu
+                        </label>
+                    </div> 
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-outline-success-dark rounded-0" data-dismiss="modal">Cancel</button>
+            <button type="button" class="btn btn-success-dark rounded-0">Add</button>
+        </div>
+    </div>
+    </div>
+</div>
+<!-- Edit Modal -->
+<div class="modal fade" id="edit-exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content rounded-0">
+        <div class="modal-header border-0">
+        <h5 class="modal-title h2 text-dark" id="exampleModalLabel">Edit Admin</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <!-- modal-body -->
+        <div class="modal-body">
+            <form action="#">
+                <p class="textcolor-primary h3 text-bold">Account</p>
+                <div class="form-group">
+                    <label for="name"  class="h5">Name</label>
+                    <input type="text" class="form-control bg-primary rounded-0" id="name" placeholder="Emir Wicks" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput" class="h5">Email</label>
+                    <input type="email" class="form-control bg-primary rounded-0" id="formGroupExampleInput" placeholder="emir.wicks@mail.com">
+                </div>
+                <hr class="bg-success">
+                <div class="form-group">
+                    <p class="h3 text-bold">Verification</p>
+                    <div class="d-flex justify-content-between mb-3">
+                        <div class="d-flex align-items-center">
+                            <span class="material-icons mr-2"lign-items-center>check_circle</span>
+                            <span >Verified</span>
+                        </div>
+                        <div class="h5 mb-0">2020/4/12</div>
+                    </div>
+                    <button type="button" class="btn btn-outline-success btn-block rounded-0">Send Verification Mail</button>
+                </div>
+                <hr class="bg-success">
+                <!-- custom-select -->
+                <div class="form-group">
+                    <p class="h3 text-bold">Access Level</p>
+                    <select class="custom-select">
+                        <option selected>adim</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <hr class="bg-success">
+                <!-- form-check -->
+                <div class="form-group">    
+                    <p class="h3 text-bold mb-2">Custom Access</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                            lecture
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                        <label class="form-check-label" for="defaultCheck2">
+                          Disabled checkbox
+                        </label>
+                    </div> 
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                            Coupon
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                        <label class="form-check-label" for="defaultCheck2">
+                            Message
+                        </label>
+                    </div> 
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                            Setting
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                        <label class="form-check-label" for="defaultCheck2">
+                            task menu
+                        </label>
+                    </div> 
+                </div>
+                <hr class="bg-success">
+                <p class="h3 text-bold">Deactivate Account</p>
+                <div class="form-group">
+                    <div class="list-unstyled d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center mb-3">
+                            <span class="material-icons mr-2 align-top text-danger-50">warning</span>
+                            <span class="text-danger-50"> This cannot be undone!</span>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-outline-danger-50 btn-block rounded-0">Send Deactivate This Account</button>
+                </div>
+            </form>
+        </div>
+        <!-- modal-footer -->
+        <div class="modal-footer border-0">
+            <button type="button" class="btn btn-outline-success-dark rounded-0" data-dismiss="modal">Cancel</button>
+            <button type="button" class="btn btn-success-dark rounded-0">Update</button>
+        </div>
+    </div>
+    </div>
+</div>
