@@ -1,0 +1,1 @@
+{"version":3,"sources":["layout/navbar.scss"],"names":[],"mappings":"AACA;EACI,mBAAmB;EACnB,gBAAe;EACf,iBAAiB,EAAA","file":"navbar.css","sourcesContent":["// 側邊選單\r\n.navbar-Menu{\r\n    background: #EDF4EE;\r\n    min-width:296px;\r\n    min-height: 100vh;\r\n}"]}
